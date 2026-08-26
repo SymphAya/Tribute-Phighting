@@ -20,3 +20,7 @@
 
 /* Layout */
 
+.factions {
+    display: flex;
+    flex-direction: column;
+}
