@@ -40,3 +40,7 @@ th, td {
     flex-direction: column;
     text-align: center;
 }
+
+.images {
+    width: 400px
+}
