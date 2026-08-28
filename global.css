@@ -3,7 +3,7 @@
 }
 
 .losttemple {
-    color:sandybrown
+    color:rgb(218, 170, 129)
 }
 
 .theivesden {
@@ -16,6 +16,21 @@
 
 .crossroads {
     color:lightseagreen
+}
+
+/* Table  */
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Layout */
