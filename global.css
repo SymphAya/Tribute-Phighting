@@ -35,12 +35,12 @@ th, td {
 
 /* Layout */
 
-.factions {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
 .images {
     width: 400px
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
