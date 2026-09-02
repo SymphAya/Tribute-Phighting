@@ -43,4 +43,13 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color:rgb(213, 207, 207);
+    font-size: 1.2rem;
+    text-decoration: none;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
