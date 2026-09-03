@@ -1,0 +1,48 @@
+#hero {
+    min-height: 80dvh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    background-image: url(./Images/BanhammerSodaArt1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 2rem;
+    background-color: rgba(200, 200, 200, 0.75);
+    color: rgb(87, 87, 87);
+}
+
+.blackrock1 {
+    color:darkslategrey;
+    font-size: 2rem;
+}
+
+.losttemple1 {
+    color:rgb(218, 170, 129);
+    font-size: 2rem;
+}
+
+.theivesden1 {
+    color:red;
+    font-size: 2rem;
+}
+
+.playground1 {
+    color:orange;
+    font-size: 2rem;
+}
+
+.crossroads1 {
+    color:lightseagreen;
+    font-size: 2rem;
+}
+
+.table-footer {
+    background-color:rgb(245, 242, 242);
+}

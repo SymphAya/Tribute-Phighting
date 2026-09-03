@@ -44,11 +44,15 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     background-color:rgb(213, 207, 207);
-    font-size: 1.5rem;
-    text-decoration: none;
     margin-top: -6px;
     min-height: 8dvh;
     
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:fuchsia;
 }
 
 body {
