@@ -36,7 +36,17 @@ th, td {
 /* Layout */
 
 .images {
-    width: 400px
+    height: 300px;
+    border: 2px solid black;
+}
+
+.special-images {
+    max-width: 1000px;
+    min-height: 300px;
+}
+
+.render-images {
+    height: 400px;
 }
 
 nav {
@@ -55,7 +65,14 @@ nav {
     color:fuchsia;
 }
 
-body {
+p {
     display: flex;
-    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
 }
