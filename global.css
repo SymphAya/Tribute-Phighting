@@ -33,11 +33,12 @@ th, td {
     text-align: center;
 }
 
-/* Layout */
+/* Images */
 
 .images {
     height: 300px;
-    border: 2px solid black;
+    border: 5px solid black;
+    margin: 5px;
 }
 
 .special-images {
@@ -49,6 +50,39 @@ th, td {
     height: 400px;
 }
 
+.red-horn {
+    background-color: rgb(201, 47, 47);
+}
+
+.blue-horn {
+    background-color: rgb(36, 36, 199);
+}
+
+.purple-horn {
+    background-color: rgb(161, 35, 161);
+}
+
+.orange-horn {
+    background-color: rgb(226, 147, 0);
+}
+
+.green-horn {
+    background-color: rgb(21, 150, 21);
+}
+
+.pink-horn {
+    background-color: rgb(190, 71, 165);
+}
+
+.teal-horn {
+    background-color: rgb(22, 117, 117);
+}
+
+.cyan-horn {
+    background-color: rgb(3, 209, 209);
+}
+
+/* Layout */
 nav {
     display: flex;
     flex-direction: row;
@@ -63,7 +97,20 @@ nav {
     font-size: 1.5rem;
     text-decoration: none;
     color:fuchsia;
+    margin-top: 25px;
 }
+
+#nav-logo {
+    max-height: 12dvh;
+    max-width: 12dvh;
+    margin-top: 10px
+}
+
+#logo-wrapper {
+    max-height: 8dvh;
+    overflow: hidden;
+}
+
 
 p {
     display: flex;
