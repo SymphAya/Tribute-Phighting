@@ -46,8 +46,64 @@ th, td {
     min-height: 300px;
 }
 
-.render-images {
-    height: 400px;
+/* Phighter Renders  */
+.render-sword {
+    max-height: 400px;
+    }
+.render-katana {
+    max-height: 400px;
+}
+
+.render-banhammer {
+    max-height: 400px;
+}
+
+.render-skateboard {
+    max-height: 400px;
+}
+
+.render-biograft {
+    max-height: 400px;
+}
+
+.render-shuriken {
+    max-height: 400px;
+}
+
+.render-scythe {
+    max-height: 400px;
+}
+
+.render-hyperlaser {
+    max-height: 400px;
+}
+
+.render-slingshot {
+    max-height: 400px;
+}
+
+.render-rocket {
+    max-height: 400px;
+}
+
+.render-coil {
+    max-height: 400px;
+}
+
+.render-subspace {
+    max-height: 400px;
+}
+
+.render-boombox {
+    max-height: 400px;
+}
+
+.render-vinestaff {
+    max-height: 400px;
+}
+
+.render-medkit {
+    max-height: 400px;
 }
 
 .red-horn {
