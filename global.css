@@ -47,65 +47,21 @@ th, td {
 }
 
 /* Phighter Renders  */
-.render-sword {
+.render1 {
     max-height: 400px;
+    position: relative;
+    background-color: white;
     }
-.render-katana {
+.render1:hover {
+    opacity:0%;
+    transition: 0.6s ease-in-out;
+    }
+.render2 {
     max-height: 400px;
-}
+    position: absolute;
+    }
 
-.render-banhammer {
-    max-height: 400px;
-}
-
-.render-skateboard {
-    max-height: 400px;
-}
-
-.render-biograft {
-    max-height: 400px;
-}
-
-.render-shuriken {
-    max-height: 400px;
-}
-
-.render-scythe {
-    max-height: 400px;
-}
-
-.render-hyperlaser {
-    max-height: 400px;
-}
-
-.render-slingshot {
-    max-height: 400px;
-}
-
-.render-rocket {
-    max-height: 400px;
-}
-
-.render-coil {
-    max-height: 400px;
-}
-
-.render-subspace {
-    max-height: 400px;
-}
-
-.render-boombox {
-    max-height: 400px;
-}
-
-.render-vinestaff {
-    max-height: 400px;
-}
-
-.render-medkit {
-    max-height: 400px;
-}
-
+/* Color coding for horns */
 .red-horn {
     background-color: rgb(201, 47, 47);
 }
@@ -167,7 +123,7 @@ nav {
     overflow: hidden;
 }
 
-
+/* Text stuff goes here  */
 p {
     display: flex;
     border: 2px solid black;
@@ -178,4 +134,16 @@ p {
 
 h1 {
     text-align: center;
+}
+
+.side-note {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(5, 5, 5);
 }
