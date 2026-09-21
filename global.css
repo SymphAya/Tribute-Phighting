@@ -49,6 +49,7 @@ th, td {
 /* Phighter Renders  */
 .render1 {
     max-height: 400px;
+    min-height: 400px;
     position: relative;
     background-color: white;
     }
