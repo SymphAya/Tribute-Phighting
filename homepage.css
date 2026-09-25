@@ -1,3 +1,5 @@
+/* Main  */
+
 #hero {
     min-height: 80dvh;
     display: flex;
@@ -18,6 +20,14 @@
     color: rgb(87, 87, 87);
 }
 
+/* Grid  */
+
+.faction-grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+/* Classes for text */
 .blackrock1 {
     color:darkslategrey;
     font-size: 2rem;
@@ -43,6 +53,7 @@
     font-size: 2rem;
 }
 
+/* Table */
 .table-footer {
     background-color:rgb(245, 242, 242);
 }

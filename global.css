@@ -62,6 +62,11 @@ th, td {
     position: absolute;
     }
 
+.render3 {
+    max-height: 400px;
+    min-height: 400px;
+}
+
 /* Color coding for horns */
 .red-horn {
     background-color: rgb(201, 47, 47);
@@ -129,7 +134,7 @@ p {
     display: flex;
     border: 2px solid black;
     padding: 10px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -141,10 +146,25 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 200px;
+    height: 300px;
     width: 300px;
     text-align: center;
     font-size: 1.2rem;
     color: white;
     background-color: rgb(5, 5, 5);
+    margin-left: 670px;
+}
+
+/* Text font  */
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Relationship Tables */
+.relationships {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
