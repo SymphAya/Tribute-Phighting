@@ -29,7 +29,7 @@
 
 /* Classes for text */
 .blackrock1 {
-    color:darkslategrey;
+    color:white;
     font-size: 2rem;
 }
 
@@ -51,9 +51,4 @@
 .crossroads1 {
     color:lightseagreen;
     font-size: 2rem;
-}
-
-/* Table */
-.table-footer {
-    background-color:rgb(245, 242, 242);
 }

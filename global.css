@@ -1,5 +1,9 @@
+:root {
+    --background-color-width: 600px;
+}
+
 .blackrock {
-    color:darkslategrey
+    color: white;
 }
 
 .losttemple {
@@ -41,17 +45,12 @@ th, td {
     margin: 5px;
 }
 
-.special-images {
-    max-width: 1000px;
-    min-height: 300px;
-}
-
 /*  Renders  */
 .render1 {
     max-height: 400px;
     min-height: 400px;
     position: relative;
-    background-color: white;
+    background-color: #111;
     }
 .render1:hover {
     opacity:0%;
@@ -114,7 +113,7 @@ nav {
 .nav-link {
     font-size: 1.5rem;
     text-decoration: none;
-    color:fuchsia;
+    color: #eb0700;
     margin-top: 25px;
 }
 
@@ -132,7 +131,7 @@ nav {
 /* Text stuff goes here  */
 p {
     display: flex;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 10px;
     font-size: 1.2rem;
     text-align: center;
@@ -140,6 +139,10 @@ p {
 
 h1 {
     text-align: center;
+}
+
+h4 {
+    font-size: 1.5rem;
 }
 
 .side-note {
@@ -155,12 +158,9 @@ h1 {
     margin-left: 670px;
 }
 
-/* Text font  */
-
-body {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.comic-link {
+    text-decoration:none;
+    color: white;
 }
 
 /* Relationship Tables */
@@ -169,4 +169,32 @@ body {
     grid-template-columns: repeat(1,1fr);
 }
 
+/* Changing overall page (no root) */
+
+body {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #111;
+    color: #00E4EB;
+}
+
 /* Media Stuff (also a cry for help) */
+
+@media (max-width:600px) {
+    .images {
+        max-width: 470px;
+        max-height: 500px;
+        height:auto;
+    }
+    body {
+        max-width: 600px;
+        min-width: 300px;
+    }
+
+    .side-note {
+        margin-left: 0;
+    }
+
+    
+}
