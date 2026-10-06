@@ -2,6 +2,35 @@
     --background-color-width: 600px;
 }
 
+/* Layout gimmicks */
+.page-nav {
+    grid-area: nav;
+}
+
+.page-header {
+    grid-area: header;
+}
+
+.page-main {
+    grid-area: main;
+}
+
+.page-footer {
+    grid-area: footer;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1,1fr;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+
+/* color coding */
+
 .blackrock {
     color: white;
 }
@@ -25,7 +54,7 @@
 /* Table  */
 
 table {
-    border: 2px solid black;
+    border: 2px solid white;
     border-collapse: collapse;
     margin: 20px;
     text-align: center;
@@ -145,18 +174,6 @@ h4 {
     font-size: 1.5rem;
 }
 
-.side-note {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 300px;
-    width: 300px;
-    text-align: center;
-    font-size: 1.2rem;
-    color: white;
-    background-color: rgb(5, 5, 5);
-    margin-left: 670px;
-}
 
 .comic-link {
     text-decoration:none;
@@ -196,5 +213,21 @@ body {
         margin-left: 0;
     }
 
+    nav {
+        max-width: 600px;
+        min-width: 600px;
+    }
     
+    .render3 {
+        max-width: 600px;
+        min-height: 200px;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
 }

@@ -1,3 +1,23 @@
+/* unique layout cuz its being special >:( */
+.page-nav {
+    grid-area: nav;
+}
+
+.page-aside {
+    grid-area: aside;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 3,1fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+}
+
+
 /* Main  */
 
 #hero {
