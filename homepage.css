@@ -40,11 +40,23 @@
     color: rgb(87, 87, 87);
 }
 
-/* Grid  */
+.game-link {
+    background:linear-gradient( to right, lightseagreen, white);
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 40px;
+    width: 300px;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
 
-.faction-grid{
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
+.game-link2 {
+    text-decoration: none;
+    color: black;
+}
+
+.game-link:hover, .game-link2:focus-visible:focus-visible {
+    border: 3px solid rgb(254, 177, 53);
 }
 
 /* Classes for text */
