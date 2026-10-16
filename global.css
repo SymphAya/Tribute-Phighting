@@ -207,8 +207,38 @@ body {
 /* stupid bird man that I hate */
 
 .bird-man {
-    
+    transition: all 0.2s ease;
 }
+
+.bird-man:active, .bird-man:focus-visible {
+    transform:scaleY(0.1);
+}
+
+/* keyframe testing */
+
+@keyframes pet {
+    from {
+        transform:scaley(1)
+    }
+
+    to {
+        transform: scaley(0.8)
+    }
+}
+
+.petting:active, .petting:focus-visible {
+    animation: 0.3s steps(2) infinite pet;
+}
+
+/* darkheart hearts */
+
+
+
+.heart1, .heart2, .heart3 {
+    position: absolute;
+    transition: all 0.4s ease;
+}
+
 
 
 /* Media Stuff (also a cry for help) */
