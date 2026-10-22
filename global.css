@@ -267,6 +267,14 @@ body {
 /* Media Stuff (also a cry for help) */
 
 @media (max-width:600px) {
+    .page {
+        grid-template-areas: 
+        "nav"
+        "header"
+        "main"
+        "footer"
+    }
+    
     .images {
         max-width: 470px;
         max-height: 500px;
@@ -282,7 +290,7 @@ body {
     }
 
     nav {
-        max-width: 600px;
+        max-width: auto;
         min-width: 600px;
     }
     
