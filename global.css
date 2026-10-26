@@ -51,21 +51,6 @@
     color:lightseagreen
 }
 
-/* Table  */
-
-table {
-    border: 2px solid white;
-    border-collapse: collapse;
-    margin: 20px;
-    text-align: center;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
 /* Images */
 
 .images {
@@ -266,7 +251,7 @@ body {
 
 /* Media Stuff (also a cry for help) */
 
-@media (max-width:600px) {
+@media (max-width:1023px) {
     .page {
         grid-template-areas: 
         "nav"
@@ -287,11 +272,6 @@ body {
 
     .side-note {
         margin-left: 0;
-    }
-
-    nav {
-        max-width: auto;
-        min-width: 600px;
     }
     
     .render3 {

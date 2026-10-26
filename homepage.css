@@ -17,6 +17,20 @@
     "footer footer footer footer";
 }
 
+/* Table */
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
 
 /* Main  */
 
@@ -87,7 +101,7 @@
 
 /* mobile/cry for help */
 
-@media (max-width:600px) {
+@media (max-width:1023px) {
     .page {
         grid-template-areas: 
         "nav"
@@ -103,8 +117,8 @@
         height:auto;
     }
     body {
-        max-width: auto;
-        min-width: 600px;
+        max-width: 1023px;
+        min-width: 100px;
     }
 
     .side-note {
