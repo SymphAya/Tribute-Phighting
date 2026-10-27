@@ -21,7 +21,6 @@
 
 .page {
     display: grid;
-    grid-template-columns: 1,1fr;
     grid-template-areas: 
     "nav"
     "header"
@@ -257,17 +256,18 @@ body {
         "nav"
         "header"
         "main"
-        "footer"
+        "footer";
     }
     
-    .images {
-        max-width: 470px;
-        max-height: 500px;
+    .images, .render3 {
+        width: 100%;
         height:auto;
     }
+
     body {
-        max-width: auto;
-        min-width: 600px;
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .side-note {
@@ -275,15 +275,27 @@ body {
     }
     
     .render3 {
-        max-width: 600px;
+        max-width: 1023px;
         min-height: 200px;
+        height: auto;
     }
 
     p {
         font-size: 1.7rem;
+        margin: 0;
     }
 
     h3 {
         font-size: 1.8rem;
+    }
+
+    nav {
+        width: 100%
+    }
+
+    .red-horn, .blue-horn, .green-horn, .orange-horn, .grey-horn, .purple-horn, .teal-horn,
+    .cyan-horn {
+        display: flex;
+        flex-direction: column;
     }
 }

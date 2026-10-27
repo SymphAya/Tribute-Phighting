@@ -1,7 +1,5 @@
 /* unique layout cuz its being special >:( */
-.page-nav {
-    grid-area: nav;
-}
+
 
 .page-aside {
     grid-area: aside;
@@ -110,24 +108,10 @@ th, td {
         "aside"
         "footer"
     }
-    
-    .images {
-        max-width: 470px;
-        max-height: 500px;
-        height:auto;
-    }
-    body {
-        max-width: 1023px;
-        min-width: 100px;
-    }
+
 
     .side-note {
         margin-left: 0;
-    }
-
-    nav {
-        max-width: 600px;
-        min-width: 600px;
     }
     
     .render3 {
