@@ -214,7 +214,7 @@ h4 {
 }
 
 .bird-man:active, .bird-man:focus-visible {
-    transform:scaleY(0.01);
+    transform:scaleY(0.1);
 }
 
 /* keyframe testing */
