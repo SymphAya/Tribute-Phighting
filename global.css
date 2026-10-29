@@ -2,7 +2,7 @@
     --border-color: white;
     --tab-color: rgb(221, 0, 136);
     --image-size: 400px;
-    --additional-color: #eb0700;
+    --secondary-color: #eb0700;
     --image-centering: center;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .theivesden {
-    color: var(--additional-color);
+    color: var(--secondary-color);
 }
 
 .playground {
@@ -103,7 +103,7 @@ body {
 
 /* Color coding for horns */
 .red-horn {
-    background-color: var(--additional-color);
+    background-color: var(--secondary-color);
 }
 
 .blue-horn {
@@ -152,7 +152,7 @@ nav {
 .nav-link {
     font-size: 1.5rem;
     text-decoration: none;
-    color: var(--additional-color);
+    color: var(--secondary-color);
     margin-top: 25px;
 }
 
@@ -188,7 +188,7 @@ h4 {
 .comic-link {
     text-decoration:none;
     color: var(--border-color);
-    background:linear-gradient( to right,  var(--additional-color), rgb(255, 149, 0));
+    background:linear-gradient( to right,  var(--secondary-color), rgb(255, 149, 0));
     padding: 1%;
     border-radius: 10px;
 }
@@ -217,47 +217,16 @@ h4 {
     transform:scaleY(0.1);
 }
 
-/* keyframe testing */
-
-@keyframes pet {
-    from {
-        transform:scaley(1)
-    }
-
-    to {
-        transform: scaley(0.8)
-    }
-}
-
-.petting:active, .petting:focus-visible {
-    animation: 0.3s steps(2) infinite pet;
-}
-
-/* darkheart hearts */
-
-
-
-.heart1, .heart2, .heart3 {
-    position: absolute;
-    transition: all 0.4s ease;
-}
-
 
 
 /* Media Stuff (also a cry for help) */
 
 @media (max-width:1023px) {
-    .page {
-        grid-template-areas: 
-        "nav"
-        "header"
-        "main"
-        "footer";
-    }
-    
+
     .images, .render3 {
         width: 100%;
-        height:auto;
+        min-height:auto;
+        height: auto;
     }
 
     body {
